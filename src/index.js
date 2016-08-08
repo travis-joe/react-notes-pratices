@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import List from './components/List'
+import Lists from './components/Lists'
 // import { Provider } from 'react-redux';
 // import { createStore, applyMiddleware } from 'redux';
 //
@@ -16,5 +16,5 @@ import List from './components/List'
 
 
 ReactDOM.render(
-    <List />
+    <Lists />
   , document.querySelector('.container'));
